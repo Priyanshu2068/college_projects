@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2 align="center">Registration Form</h2>
+
+    <form action="welcome.html" align="center">
+
+        <!-- Name Section -->
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your first name" required>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your last name" required>
+        <br><br>
+
+        <!-- Email Section -->
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Password Section -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required>
+        <br><br>
+
+        <!-- Gender Section -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Subject Section -->
+        <label>Subjects:</label><br>
+        <input type="checkbox" id="c" name="subject" value="C">
+        <label for="c">C</label>
+
+        <input type="checkbox" id="cpp" name="subject" value="C++">
+        <label for="cpp">C++</label>
+
+        <input type="checkbox" id="python" name="subject" value="Python">
+        <label for="python">Python</label>
+
+        <input type="checkbox" id="java" name="subject" value="Java">
+        <label for="java">Java</label>
+        <br><br>
+
+        <!-- Course Dropdown -->
+        <label for="course">Course:</label>
+        <select name="course" id="course" required>
+            <option value="MCA">MCA</option>
+            <option value="BTech">B.Tech</option>
+            <option value="MBA">MBA</option>
+        </select>
+        <br><br>
+
+        <!-- Experience Section -->
+        <label for="experience">Experience:</label><br>
+        <textarea id="experience" name="experience" rows="5" cols="50" placeholder="Write about your experience..."></textarea>
+        <br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
