@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#main-header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+#main-header p {
+    font-size: 16px;
+}
+
+
+#adventure-section h2 {
+    color: #004aad;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+
+.bike-table {
+    margin: 20px auto;
+    border-spacing: 20px;
+}
+
+
+.bike-card {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+}
+
+
+.bike-card img {
+    width: 230px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+
+.bike-card h3 {
+    color: #222;
+    margin: 10px 0 5px 0;
+}
+
+
+.bike-card p {
+    font-size: 14px;
+    color: #444;
+    margin: 3px 0;
+}
+
+
+.bike-card a {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 5px 10px;
+    background-color: #004aad;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.bike-card:hover {
+    background-color: #e8f0ff;
+    transform: scale(1.05);
+}
+
+.bike-card a:hover {
+    background-color: #d10000;
+    transform: scale(1.05);
+}
+
+
+#main-footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+#main-footer a {
+    color: #99ccff;
+    text-decoration: none;
+}
+
+#main-footer a:hover {
+    text-decoration: underline;
+}

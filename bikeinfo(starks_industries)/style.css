@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000;
+    text-align: center;
+    margin: 0;
+  }
+  
+  
+  #main-header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  #main-header h1 {
+    margin-bottom: 10px;
+  }
+  
+  #main-header p {
+    font-size: 16px;
+  }
+  
+
+  .shop-section {
+    margin: 40px 0;
+  }
+  
+  .shop-section h2 {
+    color: darkblue;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  
+
+  .bike-table, .brand-table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 25px;
+  }
+  
+  
+  .bike-card, .brand-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+
+  .bike-card:hover, .brand-card:hover {
+    background-color: #e0f0ff;
+    transform: scale(1.03);
+    border-color: #0078d7;
+  }
+  
+
+  .bike-card img, .brand-card img {
+    width: 230px;
+    height: 150px;
+    border: 1px solid #999;
+    margin-bottom: 8px;
+    transition: transform 0.3s;
+  }
+  
+  
+  .bike-card:hover img, .brand-card:hover img {
+    transform: scale(1.05);
+  }
+  
+
+  .bike-card a, .brand-card a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .bike-card a:hover, .brand-card a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  
+  #main-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  #main-footer a {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  #main-footer a:hover {
+    text-decoration: underline;
+  }
+  
