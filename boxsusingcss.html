@@ -4,20 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>box model</title>
+    <title>inline and external css</title>
+    <link rel="stylesheet" href="external.css">
 </head>
 
 <body>
-    <h2>this is box model</h2>
+    <h2 style="font-style: italic;">inline and external css</h2>
     <table border="1" cellpadding="10" cellspacing="20">
-        <tr>
-            <th>choose cars:-</th>
+        <tr id="b1">
+            <th >choose cars:-</th>
             <th>select below</th>
         </tr>
         <tr>
             <td>check brand</td>
             <td>
-                <select name="car" id="b1">
+                <select name="car" class="a1">
                     <label for="cars">Choose car</label>
                     <option value="bmw">bmw</option>
                     <option value="audi">audi</option>
